@@ -1,0 +1,35 @@
+
+/*heade part*/
+header {
+    margin: 0;
+}
+.container{
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    margin:  50px 144px 120px 144px;
+    border-radius: 16px; 
+    width: 1300px;
+    
+}
+
+.header-container {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 177px 340px 177px 340px;
+
+}
+
+.titel {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.header-titel {
+    margin-top: 0;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    
+}
