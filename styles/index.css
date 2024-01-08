@@ -5,6 +5,7 @@ body {
 
 header {
     margin: 0;
+    border-radius: 20px;
 }
 
 .container {
@@ -12,7 +13,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 
-    border-radius: 20px;
     max-width: 1350px;
 
 }
@@ -136,12 +136,14 @@ button {
     font-size: 32px;
     font-weight: 600;
     background-color: rgb(250, 233, 242);
-    padding:100px 385px 126px 385px;
+    padding: 100px 385px 126px 385px;
     text-align: center;
 }
-.place-span{
+
+.place-span {
     color: #F00;
 }
+
 .place-btn {
     padding: 16px 35px;
     border-radius: 8px;
@@ -151,4 +153,23 @@ button {
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
+}
+
+/*Best offer*/
+.offer-titel {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.60);
+
+font-size: 20px;
+font-weight: 400;
 }
