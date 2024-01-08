@@ -1,11 +1,11 @@
 /*heade part*/
 header,
 main {
-    margin: 50px 144px 120px 144px;
+    margin: 50px 140px 120px 144px;
 }
 
 header {
-    margin: 0;
+    /* margin: 0; */
     border-radius: 20px;
 }
 
@@ -13,8 +13,8 @@ header {
     background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
-
-    max-width: 1350px;
+    background-size: contain;
+    width: 1350px;
 
 }
 
@@ -86,14 +86,16 @@ header {
     display: flex;
     background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     margin: 120px 0px;
     padding: 68px 0px;
 }
 
 .midpic {
-    width: 350px;
+    width: 300px;
     height: 464px;
-    padding: 30px;
+    padding: 30px 0px;
 }
 
 .midnight-heading {
@@ -137,7 +139,7 @@ button {
     font-size: 32px;
     font-weight: 600;
     background-color: rgb(250, 233, 242);
-    padding: 100px 385px 126px 385px;
+    padding: 100px 385px 120px 385px;
     text-align: center;
 }
 
