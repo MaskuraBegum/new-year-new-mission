@@ -1,5 +1,6 @@
 /*heade part*/
-body {
+header,
+main {
     margin: 50px 144px 120px 144px;
 }
 
@@ -274,56 +275,109 @@ button {
     font-weight: 500;
 }
 
-.gift-heading,.subscribe-heading {
+.gift-heading,
+.subscribe-heading {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
 
-.gift-discription,.subscribe-description {
+.gift-discription,
+.subscribe-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
 }
-.gift-pic{
+
+.gift-pic {
     width: 424px;
     height: 450px;
     margin: 24px;
 
 }
-.gift-image{
+
+.gift-image {
     display: flex;
     justify-content: center;
     border-radius: 16px;
 }
-.gift-image img:hover{
-    background-color:grey;
+
+.gift-image img:hover {
+    background-color: grey;
 }
+
 /*subscribe*/
-.subscribe-letter{
+.subscribe-letter {
     text-align: center;
-    margin-top:120px;
+    margin-top: 120px;
 }
-.input-email{
+
+.input-email {
     /* width: 550px;
     height: 67px; */
-    border-radius: 50px 0 0 50px ;
+    border-radius: 50px 0 0 50px;
     margin
 }
-.subscribe-btn{
+
+.subscribe-btn {
     padding: 25px 58px 27px;
     border-radius: 0px 50px 50px 0px;
     margin-left: -5px;
     height: 72px;
 }
-.input-email{
+
+.input-email {
     padding: 24px 267px 24px 30px;
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
 }
-.subscribe-letter{
+
+.subscribe-letter {
     width: 790px;
     padding: 0px 330px;
 }
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contacts{
+    margin: 0;
+}
+
+.footer {
+    background-color: #070211;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.foot{
+    width: 375px;
+    padding: 120px 0px 50px 140px;
+}
+.footer-image{
+    text-align: center;
+}
+.footer-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-description{
+    padding: 50px 880px 120px 140px;
+    width: 395px;
+}
+
+.last{
+    display: flex;
+
+}  
